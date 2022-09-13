@@ -1,0 +1,18 @@
+.social-media {
+    grid-area: social-media;
+    display: flex;
+    flex-direction: column;
+    place-self: end;
+    gap: 20px;
+}
+
+.icon{
+    height: 48px;
+    width: 48px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
